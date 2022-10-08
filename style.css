@@ -480,6 +480,9 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+    #about { 
+        height:1500px;
+    }
     
 }
 /* ------------code for contract google form------------ */
