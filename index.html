@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsonal protfolio webside for akib</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="containar">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span> Akibul Hasan</span><br> From Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------About------------ -->
+    <div id="about">
+        <div class="containar">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Akibul Hasan. I have been working as a front-end web developer,
+                        having strong command on PSD to HTML, HTML5, CSS3, Bootstrap, Javascript,
+                        and JQUERY. I do clean and error-free code with a proper commendation
+                        for each step's clarification. Feel free to share your projects it will
+                        be an honor to work with you.We have built ✅50+ websites & web
+                        applications for a broad range of industries from small and mid-level
+                        <br>businesses to high-end companies & still counting .<br>🎯My aim has always
+                        been to build a website that looks professional, responsive with fast loading
+                        speed & SEO Friendly.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>Web design</span> <br>PSD To HTML <br> (HTML5, CSS3, Bootstrap 3/4)</li>
+                            <li> <span>Web Development</span> <br>FRONT END - Web Design <br> - HTML5 / CSS3 /
+                                Bootstrap / <br> JavaScript / jQuery Bootstrap studio</li>
+                            <li> <span>App Development</span> <br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2022-Current</span> <br>Web design training at shikbe sobai instirube</li>
+                            <li> <span>2019-2022</span> <br>Team lend at Star App led.</li>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2016-2020</span> <br>Dept. od CSE at Muncshigunj Polytechnic Institude</li>
+                            <li> <span>Contunuing from 2021</span> <br>Bsc in CSE At IUBAT</li>
+                            <li> <span>Web Design</span> <br>Shikbe Sobai</li>
+                            <li> <span>Web Development</span> <br>Creative It</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Services--------------- -->
+    <div id="services">
+        <div class="containar">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Goal-oriented Full Stack Web Developer with a Bachelor's degree in
+                        Software Engineering and looking to enhance my professional experience with freelancing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>Goal-oriented Full Stack Web Developer with a Bachelor's degree in
+                        Software Engineering and looking to enhance my professional experience with freelancing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Goal-oriented Full Stack Web Developer with a Bachelor's degree in
+                        Software Engineering and looking to enhance my professional experience with freelancing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------protfolio------------- -->
+    <div id="protfolio">
+        <div class="containar">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Midia App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Downlod it from play stor.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Downlod it from play stor.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Downlod it from play stor.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact---------------------- -->
+    <div id="contact">
+        <div class="containar">
+            <div class="row">
+                <div class="contect-left">
+                    <h1 class="sub-title">Contect Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> akashmpicse@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> +88 01717086560</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/akibul.hasan.13"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" downlod class="btn btn2">Downlod Cv</a>
+                </div>
+                <div class="contect-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------footer------------- -->
+    <div class="copyright">
+        <p>Developed By <i class="fa-solid fa-heart"></i><a href="https://www.facebook.com/akibul.hasan.13">Akibul
+                Hasan</a> </p>
+    </div>
+
+    <!-- ------------js for about----------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!-- ------------js for small screen------------ -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        } 
+        function closemenu(){
+            sidemenu.style.right = "-185px";
+        }
+    </script>
+    <!-- ----------------js for contact form google sheets--------- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbywfnfiUE2v0SHyppxvKIY-GQbgmsq5H__s9gfYu5QIho5FkDiZePskqpktIrGSBkKhiA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Massage send successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
