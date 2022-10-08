@@ -1,4 +1,4 @@
 # My--portfolio-wibside
-Html
-Css
-Javascript
+- Html
+- Css
+- Javascript
