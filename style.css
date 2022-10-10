@@ -456,6 +456,7 @@ nav .fa-solid{
     }
     .about-col-1{
         margin-bottom:30px;
+
     }
     .about-col-2 p{
         font-size:14px;
@@ -482,6 +483,11 @@ nav .fa-solid{
     }
     #about { 
         height:1500px;
+    }
+    .about-col-1 img {
+        width: 100%;
+        border-radius: 15px;
+        height: 400px;
     }
     
 }
